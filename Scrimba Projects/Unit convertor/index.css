@@ -1,0 +1,107 @@
+body{
+    background: #2e405a;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-content{
+    width: 400px;
+    text-align: center;
+    min-height: 200px;
+    max-height: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: linear-gradient(
+    180deg,
+    hsl(240deg 100% 20%) 0%,
+    hsl(228deg 100% 24%) 7%,
+    hsl(222deg 100% 28%) 14%,
+    hsl(219deg 100% 32%) 21%,
+    hsl(215deg 100% 34%) 29%,
+    hsl(212deg 100% 35%) 36%,
+    hsl(208deg 100% 36%) 43%,
+    hsl(204deg 100% 35%) 50%,
+    hsl(198deg 100% 34%) 56%,
+    hsl(191deg 100% 31%) 63%,
+    hsl(181deg 100% 28%) 70%,
+    hsl(169deg 100% 30%) 76%,
+    hsl(158deg 100% 32%) 82%,
+    hsl(147deg 100% 34%) 88%,
+    hsl(137deg 100% 36%) 94%,
+    hsl(120deg 100% 37%) 100%
+    );
+}
+.convert-btn{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #2e405a;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.convert-btn:hover{
+    background-color: #32725d;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 1.5em;
+    color: #fff;
+    text-shadow: 0px 0px 5px #000;
+}
+.num-to-convert{
+    font-size: 4.2em;
+    color: #fff;
+    text-shadow: 0px 0px 5px #000;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+}
+.results{
+    width: 400px;
+    text-align: center;
+    min-height: 200px;
+    max-height: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin: auto;
+    background: #1F2937;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+p{
+    font-size: 1em;
+    color: #fff;
+    text-shadow: 0px 0px 5px #000;
+
+}
+
+.result{
+    color: rgb(153, 152, 152);
+}

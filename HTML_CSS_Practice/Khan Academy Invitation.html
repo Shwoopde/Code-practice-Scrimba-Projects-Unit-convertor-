@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Spin-off of "Project: Event invite"</title>
+        <style>
+            .section1{
+    background-color: rgb(85, 72, 228);
+}
+
+.titleDiv{
+    
+    width: 75%;
+    margin:auto;
+    min-height: 129vh;
+}
+
+.mainTitle1{
+    text-align:center;
+    font-family:"Great Vibes", cursive;
+    color:white;
+    text-decoration: underline;
+    font-size: 256%;
+    margin-bottom: 0px;
+    margin-top:0px;
+    padding-top: 20px;
+    
+}
+
+.mainTitle2{
+    text-align:center;
+    font-family:"Great Vibes", cursive;
+    color:rgb(214, 214, 214);
+    text-decoration: underline;
+    font-size: 185%;
+    margin-top:0px;
+    
+}
+.pic1{
+    width:80%;
+    border-style:ridge;
+    border-width: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    
+}
+
+.section2{
+    background-color:rgb(128, 183, 231);
+    min-height: 120vh;
+    margin: 0px;
+    
+}
+.contentDiv{
+     width: 75%;
+    margin:auto;
+    min-height: 120vh;
+}
+p{
+    color:white;
+    margin-top: 0px;
+    padding-top:41px;
+    font-family: cursive;
+    font-size: 1.2em;
+    text-align: justify;
+}
+.centerText{
+    margin-left:42%;
+    
+}
+.form{
+    margin-left:25%;
+    color:white;
+    font-family: cursive;
+    font-size: 1.2em;
+}
+#attend1{
+    margin-left:14%;
+}
+.checkBoxText{
+    color:white;
+    font-family: cursive;
+    font-size: 1.2em;
+}
+.button{
+    padding-left:15px;
+    padding-right: 15px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-left: 10%;
+    margin-top:20px;
+    margin-bottom:29px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 1.1em;
+    background-color: rgb(85, 72, 228);
+    border-color: transparent;
+    color:white;
+}
+        </style>
+    </head>
+    <body>
+        <section class="section1">
+        <div class="titleDiv">
+        <h1 class="mainTitle1">Timmy's <br> Grand Bar-Mitzvah</h1>
+        <h2 class="mainTitle2">You are invited!</h2>
+        <img class="pic1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Hip%2C_Hip%2C_Hurrah%21_Artists%E2%80%99_Party%2C_Skagen_%28Peder_Severin_Kr%C3%B8yer%29_-_Gothenburg_Museum_of_Art_-_F_62.tif/lossy-page1-1024px-Hip%2C_Hip%2C_Hurrah%21_Artists%E2%80%99_Party%2C_Skagen_%28Peder_Severin_Kr%C3%B8yer%29_-_Gothenburg_Museum_of_Art_-_F_62.tif.jpg" alt="old timey painting of people at a party">
+        </div>
+        </section>
+        
+       <section class="section2">
+        <div class="contentDiv" >
+        <p>It's that time. Timmy is becoming a man. You are in invited to celebrate with us and get down with the get down. Below is a little form. please fill it out and let us know if you will be coming. Also, let us know how many are in your party.
+        <br><span class="centerText">Thanks!</span>
+        </p>
+        <input type="checkbox" id="attend1" name="attend1" value="yes">
+<label for="attend1" class="checkBoxText"> Check box if you are attending.</label><br><br>
+<form class="form">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br>
+  <label for="numberOfGuest">Number of guests:</label><br>
+  <input type="number" id= "numberOfGuest" name="numberOfGuest" min="0" max="27"><br>
+  <input type="submit" value="Submit" class="button">
+</form>
+
+        </div>
+        </section> 
+    </body>
+</html>

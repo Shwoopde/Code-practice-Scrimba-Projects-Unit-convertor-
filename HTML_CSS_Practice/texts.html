@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text examples</title>
+
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 5px;
+            row-gap: 5px;
+        }
+        .grid-item{
+            background-color: rgba(213, 240, 248, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .light-gray{
+            color:gray;
+        }
+
+        .sale-display{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+        }
+        .red{
+            color:red;
+            font-size: smaller;
+            margin: 0px;
+        }
+        .semi-big{
+            font-weight: bold;
+            margin: 0px;
+        }
+        .big-text{
+            font-size: 2em;
+            margin: 0px;
+            font-weight: bolder;
+        }
+        .plain{
+            font-weight: normal;
+            font-size: smaller;
+            margin: 0px;
+        }
+        button{
+            background-color: blue;
+            color: aliceblue;
+            border:none ;
+            border-radius: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-top: 7px;
+        }
+        .inline{
+            display: inline;
+        }
+        .green{
+            color:green;
+        }
+        .left{
+            text-align: left;
+        }
+        .no-margin{
+            margin: 0px;
+        }
+        .image{
+            width: 65%;
+            float: left;
+            border: 3px;
+            border-width: 3px;
+            border-style: ridge;
+            border-radius: 5%;
+            margin-right: 4px;
+        }
+        .fit{
+            font-size: 150%;
+            margin-bottom: 3px;
+            text-align: center;
+            font-family: fantasy;
+        }
+        .fit:hover{
+            font-size: 3em;
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item left">
+            <p>
+                <strong>freeCodeCamp.org</strong> 
+                <span class="light-gray">@freeCodeCamp  1h</span>
+            </p>
+            <p>
+                As a web developer, you'll want to make your projects easy to use and navigate around.
+                <br>
+                <br>
+                Here <a href="https://www.w3schools.com/html/html_links.asp"> @thislink</a> you can learn to do things and get better
+            </p>
+        </div>
+        <div class="grid-item sale-display">
+            <p class="red">
+                 New
+            </p>
+            <p class="semi-big">
+                <strong>MacBook Pro</strong>
+            </p>
+            <P class="big-text">
+                Supercharged for pros.
+            </P>
+            <p class="plain">
+                From $1999
+            </p>
+            <button>Buy</button>
+        </div>
+        <div class="grid-item left no-margin">
+            <P class="big-text inline">
+                1,049.61
+            </P>
+            <p class="light-gray inline" style="margin:0px;">
+                USD
+            </p>
+            <p class="green" style="margin:1px;">
+                +18.05 (1.75%) today
+            </p>
+            <p style="margin:1px;">
+                <span class="light-gray">After hours 1,048.00</span>
+                <span class="red">-1.61 (0.15%)</span>
+            </p>
+        </div>
+        <div class="grid-item">
+            <h1 class="fit">
+                Slime and unicorns
+            </h1>
+            <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCQAk8FjYFbmiQUkD3pgWnX6rbZRGPPn7frA&usqp=CAU"
+            alt="unicorn slime with pink blue and golden colors covered in sprinkles">
+            <p>
+                This is a slime. It may not look like much but it is one of the most amazing revolutionary inventions of all time.
+                How? that is a great question.
+                <br>
+                <span class="fit"> The answer is unicorns! </span>
+            </p>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

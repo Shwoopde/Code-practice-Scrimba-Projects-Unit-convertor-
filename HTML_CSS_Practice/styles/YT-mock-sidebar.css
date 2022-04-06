@@ -1,0 +1,63 @@
+.sidebar-flexbox{
+    display: flex;
+    flex-direction:column;
+    margin-top: 50px;
+    background-color: cadetblue;
+    border-width: 1px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 10px;
+    margin-right: 10px;
+    min-height: 500px;
+    cursor: pointer;
+    z-index: 200;
+}
+.home-icon{
+    width: 50px;
+    padding-top: 10px;
+}
+.home-icon:hover{
+    opacity: .7;
+}
+.explore-icon{
+    width: 50px;
+    padding-top: 10px;
+}
+.explore-icon:hover{
+    opacity: .7;
+}
+.shorts-icon{
+    width: 50px;
+    padding-top: 10px;
+}
+.shorts-icon:hover{
+    opacity: .7;
+}
+.subscription-icon{
+    width: 50px;
+    padding-top: 10px;
+}
+.subscription-icon:hover{
+    opacity: .7;
+}
+.library-icon{
+    width: 50px;
+    padding-top: 10px;
+}
+.library-icon:hover{
+    opacity: .7;
+}
+.sidebar-text{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 5px;
+}
+.sidebar-text2{
+    font-size: 10px;
+}

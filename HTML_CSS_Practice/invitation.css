@@ -1,0 +1,94 @@
+.section1{
+    background-color: rgb(85, 72, 228);
+}
+
+.titleDiv{
+    
+    width: 75%;
+    margin:auto;
+    min-height: 129vh;
+}
+
+.mainTitle1{
+    text-align:center;
+    font-family:"Great Vibes", cursive;
+    color:white;
+    text-decoration: underline;
+    font-size: 256%;
+    margin-bottom: 0px;
+    margin-top:0px;
+    padding-top: 20px;
+    
+}
+
+.mainTitle2{
+    text-align:center;
+    font-family:"Great Vibes", cursive;
+    color:rgb(214, 214, 214);
+    text-decoration: underline;
+    font-size: 185%;
+    margin-top:0px;
+    
+}
+.pic1{
+    width:80%;
+    border-style:ridge;
+    border-width: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    
+}
+
+.section2{
+    background-color:rgb(128, 183, 231);
+    min-height: 120vh;
+    margin: 0px;
+    
+}
+.contentDiv{
+     width: 75%;
+    margin:auto;
+    min-height: 120vh;
+}
+p{
+    color:white;
+    margin-top: 0px;
+    padding-top:41px;
+    font-family: cursive;
+    font-size: 1.2em;
+    text-align: justify;
+}
+.centerText{
+    margin-left:42%;
+    
+}
+.form{
+    margin-left:25%;
+    color:white;
+    font-family: cursive;
+    font-size: 1.2em;
+}
+#attend1{
+    margin-left:14%;
+}
+.checkBoxText{
+    color:white;
+    font-family: cursive;
+    font-size: 1.2em;
+}
+.button{
+    padding-left:15px;
+    padding-right: 15px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-left: 10%;
+    margin-top:20px;
+    margin-bottom:29px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 1.1em;
+    background-color: rgb(85, 72, 228);
+    border-color: transparent;
+    color:white;
+}

@@ -14,10 +14,17 @@
     <div class="container">
         <div class="main-content">
             <h3> Metric/Imperial unit conversion </h3>
-            <p class="num-to-convert" id="num-to-convert">7</p> 
+            <!--- <p class="num-to-convert" id="num-to-convert">7</p> 
             <button class="convert-btn" id="convert-btn" 
-            onclick="allConverters(), passNumber()">Convert</button>
-
+            onclick="allConverters(), passNumber()">Convert</button>--->
+            <input
+                type="number"
+                class="num-to-convert"
+                id="num-to-convert"
+                min="0"
+                onchange="allConverters(), passNumber()"
+                
+            />
         </div>
         <div class="results">
             <p>Length (Meter/Feet)</p>

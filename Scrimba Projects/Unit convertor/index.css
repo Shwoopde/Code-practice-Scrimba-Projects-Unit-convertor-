@@ -79,6 +79,9 @@ h3{
     text-shadow: 0px 0px 5px #000;
     margin-top: 10px;
     margin-bottom: 0px;
+    width: 45%;
+    background-color: transparent;
+    border: none;
 
 }
 .results{

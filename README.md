@@ -1,7 +1,5 @@
-# Code-practice-Scrimba-Projects-Unit-convertor-
+# Code practice
+These projects are all my starter projects to help me learn to code.
+Many of these are from Scrimba tutorial, Khan Academy, or Youtube videos.
 
-This is a simple unit convertor. Add your number and convert from 6 units.
-
-The code will calculate kilo to pounds, miles to kilometers, or liters to gallon.
-
-This is part of a project for Scrimba.
+Feel free to use and change as you need.

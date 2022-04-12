@@ -16,7 +16,7 @@
                 <span class="title-header"> random password.</span> 
             </h3>
             <h5> Never use an insecure passwords again!</h5>
-            <button type="button" class="generate-btn" id="generate-btn">
+            <button type="button" class="generate-btn" id="generate-btn" onclick="passwordProcess()">
                 <img class="generate-btn-img" src="https://cdn.pixabay.com/photo/2016/10/18/19/40/anatomy-1751201_960_720.png"
                 alt="Generate Password">
                 Generate password
@@ -25,17 +25,20 @@
             <p class="password-title">Pick a password from the below:</p>
             <div class="password-container">
                 <div class="password-box">
-                    <p class="password-text" id="password-text"> sample</p>
+                    <p class="password-text" id="password-text-8"> <span> 8 Characters </span> </p>
                 </div>
                 <div class="password-box">
-                    <p class="password-text" id="password-text"> sample</p>
+                    <p class="password-text" id="password-text-12"> 12 Characters</p>
                 </div>
                 <div class="password-box">
-                    <p class="password-text" id="password-text"> sample</p>
+                    <p class="password-text" id="password-text-16"> 16 Characters</p>
                 </div>
                 <div class="password-box">
-                    <p class="password-text" id="password-text"> sample</p>
+                    <p class="password-text" id="password-text-20"> 20 Characters</p>
                 </div>
+                <p class="error-msg">
+                    Can't copy, hit Ctrl+C!
+                </p>
             </div>
             
         </div>

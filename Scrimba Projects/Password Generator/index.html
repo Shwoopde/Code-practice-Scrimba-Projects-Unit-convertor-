@@ -22,19 +22,20 @@
                 Generate password
             </button>
             <hr class="break-line">
-            <p class="password-title">Pick a password from the below:</p>
+            <p class="password-title">Pick a password from the below.
+                <br> Click to copy the password:
+            </p>
             <div class="password-container">
                 <div class="password-box">
-                    <p class="password-text" id="password-text-8"> <span> 8 Characters </span> </p>
+                    <input type="text" class="password-text" id="password-text-8" value="8 Characters" onclick="copyToClipBoard1()"> </input>
                 </div>
                 <div class="password-box">
-                    <p class="password-text" id="password-text-12"> 12 Characters</p>
+                    <input type="text" class="password-text" id="password-text-12" value="12 Characters" onclick="copyToClipBoard2()"> </input>
                 </div>
                 <div class="password-box">
-                    <p class="password-text" id="password-text-16"> 16 Characters</p>
-                </div>
+                    <input type="text" class="password-text" id="password-text-16" value="16 Characters" onclick="copyToClipBoard3()"></input>                </div>
                 <div class="password-box">
-                    <p class="password-text" id="password-text-20"> 20 Characters</p>
+                    <input type="text" class="password-text" id="password-text-20" value="20 Characters" onclick="copyToClipBoard4()"></input>                </div>
                 </div>
                 <p class="error-msg">
                     Can't copy, hit Ctrl+C!

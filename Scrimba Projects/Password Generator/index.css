@@ -39,8 +39,13 @@ h5{
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-
-
+}
+.generate-btn:hover{
+    background-color: #52b788;
+    color: #1b4332;
+}
+.generate-btn:active{
+    opacity: 0.5;
 }
 .generate-btn-img {
     height: 40px;;  
@@ -66,26 +71,31 @@ h5{
 
 }
 .password-box{
-    background-color: #081c15;
-    width: 90%;
-    border-radius: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
+    background-color: none;
     
 }
 .password-text{
     color: #52b788;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
     padding-top: 5px;
     padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #081c15;
+    width: 90%;
+    border-radius: 5px;
+    text-align: center;
+}
+.password-text:hover{
+    background-color: #1b4332;
+    color: #d8f3dc;
+    cursor: pointer;
+}
+.password-text:active{
+    opacity: 0.5;
 }
 
-.error-msg{
-    color: #ff0000;
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    display: none;
-}
+
     

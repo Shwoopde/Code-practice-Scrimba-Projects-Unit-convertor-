@@ -52,8 +52,8 @@ function render() {
     password20char = "";
 }
 function passwordProcess(){
-    button.addEventListener("click", createPasswords);
-    button.addEventListener("click", render);
+    createPasswords();
+    render();
 }
 
 
@@ -87,4 +87,6 @@ function copyToClipBoard4() {
 }
 
 
+button.addEventListener("click", createPasswords);
+button.addEventListener("click", render);
 

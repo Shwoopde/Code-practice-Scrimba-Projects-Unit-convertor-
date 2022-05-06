@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Creator</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="main" class="main-container">
+        <div id="header" class="header-container">
+            <h1>Invoice Creator</h1>
+            <h5>Thanks for choosing TaskMasters for your project needs!</h5>
+        </div>
+        <div id="content" class="content-container">
+            <div class="service-btn-container">
+                <div id="wash-car-btn-container">
+                    <button id="wash-car-btn" class="service-btn" >Wash Car: <span id="car-wash-value"></span></button>
+                </div>
+                <div id="mow-lawn-btn-container">
+                    <button id="mow-lawn-btn" class="service-btn">Mow Lawn: <span id="lawn-mowing-value"></span></button>
+                </div>
+                <div id="pull-weeds-btn-container">
+                    <button id="pull-weeds-btn" class="service-btn">Pull Weeds: <span id="pull-weeds-value"></span></button>
+                </div>
+            </div>
+            <div class="tasks-container" id="tasks-container">
+                <div class="tasks-table">
+                    <table id="tasks-table" class="tasks-table">
+                        <tr class="tasks-table-header">
+                            <th class="task-table-column">Task</th>
+                            <th class="quantity-table-column">Quantity</th>
+                            <th class="remove-table-column">Remove</th>
+                            <th class="total-table-column">Total</th>
+                        </tr>
+                        <tr class="task-table-content">
+                            <td class="task-table-column">Car Wash</td>
+                            <td class="quantity-table-column"><span id="car-wash-quantity">0</span></td>
+                            <td class="remove-table-column"><button id="remove-car-wash-btn" class="remove-btn">X</button></td>
+                            <td class="total-table-column" id="car-wash-total">$0.00</td>
+                        </tr>
+                        <tr class="task-table-content">
+                            <td class="task-table-column">Lawn Mowing</td>
+                            <td class="quantity-table-column"><span id="lawn-mowing-quantity">0</span></td>
+                            <td class="remove-table-column"><button id="remove-lawn-mowing-btn" class="remove-btn">X</button></td>
+                            <td class="total-table-column" id="lawn-mowing-total">$0.00</td>
+                        </tr>
+                        <tr class="task-table-content">
+                            <td class="task-table-column">Weed Pulling</td>
+                            <td class="quantity-table-column"><span id="weed-pulling-quantity">0</span></>
+                            <td class="remove-table-column"><button id="remove-weed-pulling-btn" class="remove-btn">X</button></td>
+                            <td class="total-table-column" id="weed-pulling-total">$0.00</td>
+                        </tr>
+                    </table>
+                    
+                </div>
+                <hr class="break-line">
+                <div class="tasks-footer">
+                    <p class="payment-info">
+                        We accept cash, credit card, debit card, and major cryptocurrencies.
+                    </p>
+                    <h3 class="notes">Notes</h3>
+                    <p class="notes-text">
+                        <textarea id="notes-textarea" class="notes-textarea" placeholder="Enter any notes here..."></textarea>
+                    <h3 class="notes">Total Amount:</h3>
+                    <p class="total-amount"><span class="total-sum" id="total-value">$0</span></p>
+                </div>
+                
+            </div>
+        </div>
+        <div>
+            <button id="create-invoice-btn" class="create-invoice-btn">Create Invoice</button>
+        </div>
+    </div>
+    
+    
+
+    <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+    <script type="text/javascript" src="index.js"> </script>
+   </body>
+</html>
